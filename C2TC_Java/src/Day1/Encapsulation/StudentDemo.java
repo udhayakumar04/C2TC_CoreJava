@@ -6,6 +6,6 @@ public class StudentDemo {
 		ob.setId(101);
 		ob.setName("Udhaya");
 		
-		System.out.print
+		System.out.print();
 	}
 }
