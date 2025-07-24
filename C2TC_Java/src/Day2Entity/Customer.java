@@ -1,31 +1,39 @@
+
 package Day2Entity;
 
 public class Customer {
-	private int cid;
-	private String cname;
+	private int customerId;
+	private String customerName;
 	private String city;
 	
-	public int getCid() {
-		return cid;
-}
-public void setCid(int cid) {
-	this.cid = cid;
-}
-public String getCname() {
-	return cname;
-}
-public void setCname(String cname) {
-	this.cname = cname;
-}
-public String getCity() {
-	return city;
-}
-public void setCity(String city) {
-	this.city = city;
-}
-@Override
-public String toString() {
-	return "Customer cid=" + cid + ", cname=" + cname + ", city=" + city + ",";
+	public Customer() {
+		this.customerId=20;
+		this.customerName="diliip";
+		this.city="Puducherry";
+	}
+	public int getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	@Override
+	public String toString() {
+		return "Customer [customerId=" + customerId + ", customerName=" + customerName + ", city=" + city
+				+ "]";
+	}
+	
 }
 
-}
